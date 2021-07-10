@@ -1,0 +1,15 @@
+nav ol {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:3rem 6%;
+}
+
+nav ol li a {
+    font-size:1.25rem;
+    color:black;
+}
+
+nav ol li a:hover, nav ol li a:focus {
+    font-size:1.3rem;
+}

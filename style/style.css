@@ -1,0 +1,161 @@
+.contact-top {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4rem;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content-right img {
+  width: 80%;
+  height: auto;
+}
+
+.contact-content-center {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.contact-content-center ol {
+  display: flex;
+  margin-left: -22.5%;
+}
+
+.contact-content-center-top {
+  margin-top: -20vh;
+}
+
+.contact-content-center-top ol {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+}
+
+.contact-content-center img {
+  width: 3rem;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
+.contact-content-center li {
+  font-size: 1.5rem;
+}
+
+.contact-content-center-bottom {
+  margin-top: 22.5vh;
+  margin-left: 2.5%;
+}
+
+.contact-content-center-bottom img {
+  width: 2rem;
+  height: auto;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+.contact-content-center-bottom p {
+  line-height: 2;
+}
+
+.contact-content-center-bottom p:nth-child(2) {
+  width: 8rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.contact-content-center-map {
+  align-self: flex-end;
+}
+
+.contact-content-center-map iframe {
+  width: 40rem;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  margin-left: -2rem;
+}
+
+.header-top h1 {
+  font-size: 7.25rem;
+  border-top: 2px solid black;
+  width: 100%;
+  padding: 4.75vw;
+  font-family: rousseau deco, "sans-serif";
+}
+
+.header-top img {
+  width: 22.5%;
+  height: auto;
+  margin-top: -4rem;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1300px) {
+  .header-top h1 {
+    font-size: 3.5em;
+  }
+}
+nav ol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6%;
+}
+
+nav ol li a {
+  font-size: 1.25rem;
+  color: black;
+}
+
+nav ol li a:hover, nav ol li a:focus {
+  font-size: 1.3rem;
+}
+
+@font-face {
+  font-family: "gilroyextrabold";
+  src: url("gilroy-extrabold-webfont.woff2") format("woff2"), url("gilroy-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroylight";
+  src: url("gilroy-light-webfont.woff2") format("woff2"), url("gilroy-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "rousseau_decobold";
+  src: url("rousseaudeco-webfont.woff2") format("woff2"), url("rousseaudeco-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-size: 30px;
+  font-family: gilroy, "sans-serif";
+  max-width: 95%;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.title {
+  font-weight: lighter;
+  font-size: 3rem;
+}/*# sourceMappingURL=style.css.map */
