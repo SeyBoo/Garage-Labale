@@ -1,10 +1,7 @@
-@import "atelier","contact","footer","garagiste","header","mecanique","nav","reparation";
-
-
 @font-face {
     font-family: 'gilroyextrabold';
-    src: url('gilroy-extrabold-webfont.woff2') format('woff2'),
-         url('gilroy-extrabold-webfont.woff') format('woff');
+    src: url('/font/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('/font/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +9,8 @@
 
 @font-face {
     font-family: 'gilroylight';
-    src: url('gilroy-light-webfont.woff2') format('woff2'),
-         url('gilroy-light-webfont.woff') format('woff');
+    src: url('/font/gilroy-light-webfont.woff2') format('woff2'),
+         url('/font/gilroy-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +18,8 @@
 
 @font-face {
     font-family: 'rousseau_decobold';
-    src: url('rousseaudeco-webfont.woff2') format('woff2'),
-         url('rousseaudeco-webfont.woff') format('woff');
+    src: url('/font/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('/font/rousseaudeco-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -39,7 +36,7 @@
 body {
     font-size: 30px;
     font-family:gilroy,'sans-serif';
-    max-width: 95%;
+    max-width: 90%;
     margin: 0 auto;
     font-weight: 100;
 }
@@ -49,3 +46,4 @@ body {
     font-size:3rem;
 }
 
+@import "atelier","contact","footer","garagiste","header","mecanique","nav","reparation";

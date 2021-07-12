@@ -1,31 +1,22 @@
-.header-top {
-    display:flex;
-    align-items:center;
-    margin-left:-2rem;
+header {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align:center;
+    background-color: white;
 }
 
 .header-top h1 {
-    font-size:7.25rem;
-    border-top:2px solid black;
-    width:100%;
-    padding:4.75vw;
-    font-family: rousseau deco,'sans-serif';
+    font-family: rousseau_decobold;
+    font-size:2.5rem;
+    width:15rem;
+    margin: 0 auto;
 }
 
 .header-top img {
-    width:22.5%;
-    height:auto;
-    margin-top:-4rem;
+    width:70vw;
+    height:100%;
+    margin-top:25vh;
 }
-
-header img {
-    width:100%;
-    height:auto;
-}
-
-@media (max-width:1300px) {
-    
-    .header-top h1 {
-        font-size:3.5em;
-    }
-} 

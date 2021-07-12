@@ -1,15 +1,56 @@
-nav ol {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:3rem 6%;
+.menu-mobile {
+    height: 100%;
+    width: 0;
+    padding:25vw 0px;
+    overflow-x: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    text-align:center;
+    background-color: white;
+    transition: all 1.25s ease 0s;
 }
+.nav-links li {
 
-nav ol li a {
-    font-size:1.25rem;
+    margin-top:4rem;
+    font-size: 1.5rem;
+    transition: all 1.25s ease 0s;
+}
+.nav-links a {
     color:black;
 }
+.nav-menu {
+    padding:1.75rem 2rem;
+}
+.nav-menu-bar {
+    display:block;
+    height:1px;
+    width:1.6rem;
+    background-color: black;
+}
+.nav-menu-bar-1 {
+    margin-bottom: .7rem;
+}
+.nav-menu-bar-2 {
+    margin-top: .7rem;
+}
+.nav-close {
+    margin-top:-20vw;
+    padding:1.75rem 2rem;
+}
 
-nav ol li a:hover, nav ol li a:focus {
-    font-size:1.3rem;
+.nav-close-bar-1 {
+    height: 1px;
+    width: 25px;
+    margin-left: 12px;
+    background-color: black;
+    Z-index: 1;
+}
+  
+.nav-close-bar-2 {
+    height: 1px;
+    width: 25px;
+    background-color: black;
+    Z-index: 2;
 }

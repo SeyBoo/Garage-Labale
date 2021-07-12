@@ -9,31 +9,48 @@
     <title>Garage Lagabbe</title>
 </head>
 <body>
-    <nav>
-        <ol>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Réparation</a></li>
-            <li><a href="#">Garagiste</a></li>
-            <li><a href="#">Initiation</a></li>
-            <li><a href="#">L’atelier</a></li>
-        </ol>
-    </nav>
+    
 
     <header>
+        <nav>
+            <div class="nav-menu" onclick="menuToggleOn()">
+                <div class="nav-menu-bar nav-menu-bar-1"></div>
+                <div class="nav-menu-bar nav-menu-bar-2"></div>
+            </div>
+            <div>
+            <div class="menu-mobile">
+                <div class="nav-close" onclick="menuToggleOff()">
+                    <div class="nav-close-bar-1">
+                        <div class="nav-close-bar-2"></div>
+                    </div>
+                    
+                </div>
+                <ol class="nav-links">
+                    <li class="nav-links-li"><a href="#">Contact</a></li>
+                    <li class="nav-links-li"><a href="#">Réparation</a></li>
+                    <li class="nav-links-li"><a href="#">Garagiste</a></li>
+                    <li class="nav-links-li"><a href="#">Initiation</a></li>
+                    <li class="nav-links-li"><a href="#">L’atelier</a></li>
+                </ol>
+            </div>
+    
+            </div>
+    
+        </nav>
         <div class="header-top">
-            <img src="/image/logo.png" alt="Garage Lagabbe">
             <h1><strong>GARAGE LAGABBE</strong></h1>
+            <img src="/image/logo.png" alt="Garage Lagabbe">
         </div>
-        <img src="/image/illustration-header.png" alt="Garage Lagabbe">
+        <div class="contact-top">
+            <h2 class="title">Nous <strong>Contacter</strong></h2>
+        </div>
+
     </header>
 
     <section class="contact">
-        <article class="contact-top">
-            <h2 class="title">Nous <strong>Contacter</strong></h2>
-        </article>
         <article class="contact-content">
             <div class="contact-content-right">
-                <img src="/image/illustration-contact.png" alt="hybride garage">
+                <img src="/image/illustration-contact.png" alt="hybride garage" style="width:100%;">
             </div>
             <div class="contact-content-center">
                 <div class="contact-content-center-top">
@@ -70,7 +87,7 @@
         </article>
     </section>
 
-    <section class="reparation">
+ <!--   <section class="reparation">
         <article class="reparation-top">
             <img src="/image/logo.png" alt="Garage Lagabbe">
             <h3 class="title"><strong>Réparation</strong></h3>
@@ -167,6 +184,7 @@
     
     <footer>
         <img src="/image/logo.png" alt="Garage Lagabbe">
-    </footer>
+    </footer>-->
 </body>
+    <script src="script.js"></script>
 </html>
