@@ -27,8 +27,6 @@
 body {
   font-size: 30px;
   font-family: gilroy, "sans-serif";
-  max-width: 90%;
-  margin: 0 auto;
   font-weight: 100;
 }
 
@@ -55,11 +53,14 @@ body {
   background-color: black;
 }
 
+.contact-content-top {
+  padding: 2rem 0rem;
+}
+
 .contact-content-top ol {
   display: flex;
   justify-content: center;
-  line-height: 1.75;
-  text-align: center;
+  line-height: 2;
 }
 
 .contact-content-top ol img {
@@ -72,15 +73,35 @@ body {
   font-size: 1.1rem;
 }
 
+.contact-content-top-top {
+  margin-bottom: 1.75rem;
+}
+
+.contact-content-top-bottom {
+  margin-top: 1.75rem;
+}
+
+.contact-content-top-bottom ol {
+  text-align: center;
+}
+
 .contact-content-top-bottom img:last-of-type {
   width: 1.3rem;
 }
 
 .contact-content-top-center {
-  width: 5rem;
+  width: 7rem;
   background-color: black;
   height: 1px;
   margin: 0 auto;
+}
+
+.contact-content-bottom {
+  height: 17.5rem;
+  width: 100%;
+  margin: 0 auto;
+  background: url(/image/illustration-contact.png) no-repeat;
+  background-size: 100%;
 }
 
 .contact-content-center-map iframe {
