@@ -37,9 +37,39 @@ body {
   font-size: 3rem;
 }
 
+.contact-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .contact-top h2 {
   font-size: 2rem;
   margin-top: 5rem;
+}
+
+.contact-top div {
+  display: block;
+  width: 2.5rem;
+  height: 1px;
+  background-color: black;
+}
+
+.contact-content-top ol {
+  display: flex;
+}
+
+.contact-content-top ol img {
+  width: 2rem;
+  height: auto;
+}
+
+.contact-content-top ol li {
+  font-size: 1.1rem;
+}
+
+.contact-content-center-map iframe {
+  display: none;
 }
 
 header {
