@@ -1,0 +1,53 @@
+.mecanique {
+    margin-top:3rem;
+}
+.mecanique-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+}
+.mecanique-top img {
+    display:none;
+}
+.mecanique-top h5 {
+    font-size: 1.5rem;
+}
+.mecanique-top div {
+    display:block;
+    height:1px;
+    width:20%;
+    background-color: black;;
+}
+@media (max-width:375px) {
+
+    .mecanique-top h5 {
+        font-size: 1.3rem;
+    }
+
+    .mecanique-top div {
+        width:17.5%;
+    }
+}
+@media (max-width:326px) {
+
+    .mecanique-top h5 {
+        font-size: 1.2rem;
+    }
+
+    .mecanique-top div {
+        width:15%;
+    }
+}
+.mecanique-content-illustration img {
+    width:100%;
+    height:auto;
+    margin-top: 2rem;
+}
+.mecanique-content-testimonial p {
+    font-size: .9rem;
+    text-align: center;
+    width:87%;
+    margin: 0 auto;
+    margin-top:1rem;
+}

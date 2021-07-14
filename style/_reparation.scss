@@ -1,0 +1,49 @@
+.reparation-top {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 1rem;
+}
+.reparation-top h3 {
+    font-size:1.5rem;
+}
+.reparation-top div {
+    display:block;
+    width:30%;
+    height:1px;
+    background-color:black;
+}
+.reparation-top img {
+    width:20%;
+    height:auto;
+}
+.reparation-center p {
+    text-align: center;
+    font-size: .9rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.reparation-bottom ol {
+    display:flex;
+    justify-content:space-between;
+    flex-flow: row wrap;
+    margin-top: 6rem;
+}
+.reparation-bottom li {
+    flex: 1 0 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.reparation-bottom li a {
+    font-size: .9rem;
+    color:black;
+    margin-top:.5rem;
+}
+.reparation-bottom li img {
+    width:2.25rem;
+    height:auto;
+}
