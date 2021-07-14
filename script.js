@@ -29,5 +29,8 @@ function menuToggleOff() {
 }
 
 function showRest() {
-    document.querySelector("header").style.display = "none";
+    if ($(window).width() < 768) {
+        document.querySelector("header").style.display = "none";
+     }
+       
 }

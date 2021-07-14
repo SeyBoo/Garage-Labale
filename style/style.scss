@@ -46,3 +46,35 @@ body {
 }
 
 @import "atelier","contact","footer","garagiste","header","mecanique","nav","reparation";
+
+@media (max-width:768px) {
+    
+    .desktop {
+        display:none;
+    }
+
+}
+
+@media (min-width:768px) {
+    
+    .desktop {
+        display:block;
+    }
+
+}
+
+@media (max-width:768px) {
+    
+    .mobile {
+        display:block;
+    }
+
+}
+
+@media (min-width:768px) {
+    
+    .mobile {
+        display:none;
+    }
+
+}

@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
-
+    
     <title>Garage Lagabbe</title>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
+    </script>  
 </head>
 <body>
     
 
     <header>
         <nav>
-            <div class="nav-menu" onclick="menuToggleOn()">
+            <div class="mobile nav-menu" onclick="menuToggleOn()">
                 <div class="nav-menu-bar nav-menu-bar-1"></div>
                 <div class="nav-menu-bar nav-menu-bar-2"></div>
             </div>
             <div>
             <div class="menu-mobile">
-                <div class="nav-close" onclick="menuToggleOff()">
+                <div class="mobile nav-close" onclick="menuToggleOff()">
                     <div class="nav-close-bar-1">
                         <div class="nav-close-bar-2"></div>
                     </div>
@@ -38,8 +40,16 @@
     
         </nav>
         <div class="header-top" onclick="showRest()">
-            <h1><strong>GARAGE LAGABBE</strong></h1>
-            <img src="/image/logo.png" alt="Garage Lagabbe">
+            <div class="header-top-top">
+                <div class="desktop header-top-logo-style-bar"></div>
+                <h1><strong>GARAGE LAGABBE</strong></h1>
+            </div>
+            <div class="header-top-logo">
+                <img src="/image/logo.png" alt="Garage Lagabbe">
+            </div>
+        </div>
+        <div class="desktop header-bottom">
+            <img src="/image/illustration-header.png" alt="#">
         </div>
         <div class="contact-top">
             <div></div>
@@ -65,7 +75,7 @@
                         <li><p>09 . 80 . 92 . 80 . 21</p></li>
                     </ol>
                 </div> 
-                <div class="contact-content-top-center">
+                <div class="mobile contact-content-top-center">
 
                 </div>
                 <div class="contact-content-top-bottom">
@@ -83,7 +93,7 @@
             </div>
             <div class="contact-content-bottom">
             </div>
-            <div class="contact-content-center-map">
+            <div class="desktop contact-content-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.6273687540424!2d3.089458441933092!3d50.63701400592316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5f8eba7971f%3A0x3b92a1b110f84de3!2s55%20Rue%20de%20Flers%2C%2059800%20Lille!5e0!3m2!1sfr!2sfr!4v1625742944458!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </article>
@@ -92,8 +102,9 @@
    <section class="reparation">
         <article class="reparation-top">
             <h3 class="title"><strong>Réparation</strong></h3>
-            <div></div>
+            <div class="reparation-style-bar reparation-style-1"></div>
             <img src="/image/logo.png" alt="Garage Lagabbe">
+            <div class="desktop reparation-style-bar reparation-style-2"></div>
         </article>
 
         <article class="reparation-center">
@@ -134,8 +145,9 @@
 
     <section class="garagiste">
         <article class="garagiste-top">
-            <div></div>
-            <h4 class="title">Teddy <strong>Lagabbe</strong></h4>
+            <div class="garagiste-style-bar garagiste-style-bar-1"></div>
+            <h4 class="title">Votre <strong>Garagiste</strong></h4>
+            <div class="desktop garagiste-style-bar garagiste-style-bar-2"></div>
         </article>
 
         <article class="garagiste-content">
@@ -146,9 +158,10 @@
 
     <section class="mecanique">
         <article class="mecanique-top">
+            <div class="desktop mecanique-style-bar mecanique-style-bar-2"></div>
             <h5 class="title"><strong>Initiation</strong> à la <strong>mécanique</strong></h5>
-            <div></div>
-            <img src="/image/logo.png" alt="Garage Lagabbe">
+            <div class="mecanique-style-bar mecanique-style-bar-2"></div>
+            <img src="/image/logo.png" alt="Garage Lagabbe" class="desktop">
         </article>
 
         <article class="mecanique-content">
@@ -197,5 +210,6 @@
         <img src="/image/logo.png" alt="Garage Lagabbe">
     </footer>
 </body>
+    <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
 </html>

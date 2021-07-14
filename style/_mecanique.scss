@@ -7,13 +7,10 @@
     align-items: center;
     padding:1rem;
 }
-.mecanique-top img {
-    display:none;
-}
 .mecanique-top h5 {
     font-size: 1.5rem;
 }
-.mecanique-top div {
+.mecanique-style-bar {
     display:block;
     height:1px;
     width:20%;
@@ -25,7 +22,7 @@
         font-size: 1.3rem;
     }
 
-    .mecanique-top div {
+    .mecanique-style-bar {
         width:17.5%;
     }
 }
@@ -35,7 +32,7 @@
         font-size: 1.2rem;
     }
 
-    .mecanique-top div {
+    .mecanique-style-bar {
         width:15%;
     }
 }

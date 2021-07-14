@@ -20,3 +20,46 @@ header {
     height:100%;
     margin-top:15vh;
 }
+@media (min-width: 768px) {
+
+    header {
+        height:auto;
+        width:auto;
+        position: relative;
+    } 
+
+    .header-top {
+        display:flex;
+        align-items:flex-start;
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        padding: 0% 6%;
+    }
+
+    .header-top-logo-style-bar {
+        display:block;
+        height:1px;
+        width:100%;
+        background-color: black;
+    }
+
+    .header-top img {
+        width:90%;
+        height:auto;
+        margin-top:0vh;
+        margin-left: -20%;      
+    }
+
+    .header-top h1 {
+        width:62.5vw;
+        font-size:3.25rem;
+        margin-top: 2.5rem;
+        transform: scale(1, 1.3);
+    }
+
+    .header-bottom img {
+        width:90%;
+        height:auto;
+        margin: 0 auto;
+    }
+}

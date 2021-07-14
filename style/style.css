@@ -188,10 +188,59 @@ body {
   margin-left: -1rem;
 }
 
-.contact-content-center-map iframe {
-  display: none;
-}
+@media (min-width: 768px) {
+  .contact-top {
+    position: relative;
+    padding: 4% 6%;
+    justify-content: flex-end;
+  }
 
+  .contact-top h2 {
+    font-size: 2rem;
+  }
+
+  .contact-top div {
+    width: 25%;
+    margin-right: 7.5%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-content-bottom {
+    order: 1;
+    align-self: flex-start;
+  }
+
+  .contact-content-top {
+    order: 2;
+    align-self: center;
+  }
+
+  .contact-content-top ol {
+    width: 20rem;
+    margin: 0;
+  }
+
+  .contact-content-top ol {
+    justify-content: flex-start;
+  }
+
+  .contact-content-top-bottom ol {
+    text-align: start;
+  }
+
+  .contact-content-map {
+    order: 3;
+    align-self: flex-end;
+  }
+
+  .contact-content-bottom {
+    height: 25rem;
+  }
+}
 footer img {
   display: block;
   width: 50%;
@@ -206,14 +255,14 @@ footer img {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin-top: 7rem;
+  margin-top: 8rem;
 }
 
 .garagiste-top h4 {
   font-size: 1.5rem;
 }
 
-.garagiste-top div {
+.garagiste-style-bar {
   display: block;
   width: 45%;
   height: 1px;
@@ -225,7 +274,7 @@ footer img {
     font-size: 1.3rem;
   }
 
-  .garagiste-top div {
+  .garagiste-style-bar {
     width: 42.5%;
   }
 }
@@ -264,6 +313,48 @@ header {
   margin-top: 15vh;
 }
 
+@media (min-width: 768px) {
+  header {
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0% 6%;
+  }
+
+  .header-top-logo-style-bar {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: black;
+  }
+
+  .header-top img {
+    width: 90%;
+    height: auto;
+    margin-top: 0vh;
+    margin-left: -20%;
+  }
+
+  .header-top h1 {
+    width: 62.5vw;
+    font-size: 3.25rem;
+    margin-top: 2.5rem;
+    transform: scale(1, 1.3);
+  }
+
+  .header-bottom img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
 .mecanique {
   margin-top: 3rem;
 }
@@ -275,15 +366,11 @@ header {
   padding: 1rem;
 }
 
-.mecanique-top img {
-  display: none;
-}
-
 .mecanique-top h5 {
   font-size: 1.5rem;
 }
 
-.mecanique-top div {
+.mecanique-style-bar {
   display: block;
   height: 1px;
   width: 20%;
@@ -295,7 +382,7 @@ header {
     font-size: 1.3rem;
   }
 
-  .mecanique-top div {
+  .mecanique-style-bar {
     width: 17.5%;
   }
 }
@@ -304,7 +391,7 @@ header {
     font-size: 1.2rem;
   }
 
-  .mecanique-top div {
+  .mecanique-style-bar {
     width: 15%;
   }
 }
@@ -389,6 +476,27 @@ header {
   Z-index: 2;
 }
 
+@media (min-width: 768px) {
+  nav .menu-mobile {
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: start;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 6%;
+  }
+
+  .nav-links li {
+    font-size: 1.25rem;
+    margin-top: 0rem;
+    transition: none;
+  }
+}
 .reparation-top {
   display: flex;
   align-items: center;
@@ -400,7 +508,7 @@ header {
   font-size: 1.5rem;
 }
 
-.reparation-top div {
+.reparation-style-bar {
   display: block;
   width: 30%;
   height: 1px;
@@ -424,7 +532,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .reparation-bottom li {
@@ -445,4 +553,25 @@ header {
 .reparation-bottom li img {
   width: 2.25rem;
   height: auto;
+}
+
+@media (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

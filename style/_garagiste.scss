@@ -3,13 +3,12 @@
     justify-content:space-between;
     align-items:center;
     padding: 1rem;
-    margin-top: 7rem;
+    margin-top: 8rem;
 }
 .garagiste-top h4 {
     font-size:1.5rem;
 }
-
-.garagiste-top div {
+.garagiste-style-bar {
     display: block;
     width:45%;
     height:1px;
@@ -19,7 +18,7 @@
     .garagiste-top h4 {
         font-size:1.3rem;
     }
-    .garagiste-top div {
+    .garagiste-style-bar {
         width:42.5%;
     }
 }

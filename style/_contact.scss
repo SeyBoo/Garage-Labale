@@ -79,6 +79,56 @@
 .contact-content-top-bottom p {
     margin-left: -1rem;
 }
-.contact-content-center-map iframe {
-    display: none;
+@media (min-width: 768px) {
+   
+    .contact-top  {
+        position: relative;
+        padding: 4% 6%;
+        justify-content:flex-end;
+    }
+
+    .contact-top h2 {
+        font-size:2rem;
+    }
+
+    .contact-top div {
+        width:25%;
+        margin-right: 7.5%;
+    }
+
+    .contact-content {
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .contact-content-bottom {
+        order:1;
+        align-self: flex-start;
+    }
+
+    .contact-content-top {
+        order:2;
+        align-self: center;
+    }
+
+    .contact-content-top ol {
+        width:20rem;
+        margin: 0;
+    }
+    .contact-content-top ol {
+        justify-content: flex-start;
+    }
+
+    .contact-content-top-bottom ol{
+        text-align:start;
+    }
+
+    .contact-content-map {
+        order:3;
+        align-self: flex-end;
+    }
+
+    .contact-content-bottom {
+        height: 25rem;
+    }
 }

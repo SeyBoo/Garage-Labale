@@ -54,3 +54,25 @@
     background-color: black;
     Z-index: 2;
 }
+@media (min-width: 768px) {
+    
+    nav .menu-mobile {
+        position: relative;
+        display:block;
+        width: 100%;
+        text-align:start;
+    }
+
+    .nav-links {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:4% 6%;
+    }
+
+    .nav-links li {
+        font-size:1.25rem;
+        margin-top: 0rem;
+        transition:none;
+    }
+}
