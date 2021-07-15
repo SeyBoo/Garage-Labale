@@ -47,3 +47,51 @@
     width:2.25rem;
     height:auto;
 }
+@media (min-width: 768px) {
+
+    .reparation-top h3 {
+        order: 3;
+        font-size:2.25rem;
+    }
+
+    .order-top img {
+        order:1;
+    }
+
+    .reparation-style-1 {
+        order: 2;
+        width:7.5%;
+    }
+
+    .reparation-style-2 {
+        order: 4;
+        width:40%;
+    }
+
+    .reparation-center {
+        margin-top: 1.5rem;
+    }
+    
+    .reparation-center p {
+        font-size:1.05rem;
+    }
+
+    .reparation-bottom li img {
+        width:4rem;
+    }
+
+    .reparation-bottom li a {
+        font-size:1rem;
+    }
+
+    .reparation-bottom ol {
+        margin-top:0rem;
+    }
+}
+@media (min-width: 1024px) {
+    
+    .reparation-center p {
+        width:48rem;
+    }
+    
+}

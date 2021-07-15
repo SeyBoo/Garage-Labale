@@ -27,8 +27,31 @@
     height:auto;
     margin-top: 2.5rem;
 }
+.garagiste-content {
+    text-align:center;
+}
 .garagiste-content p {
-    text-align: center;
     margin-top:1.5rem; 
     font-size: 1.1rem;
+}
+@media(min-width: 768px) {
+
+    .garagiste-top h4 {
+        font-size: 2rem;
+    }
+
+    .garagiste-style-bar-2 {
+        width:15%;
+    }
+
+    .garagiste-top {
+        margin-top: 4rem;
+    }
+    .garagiste-content p {
+        font-size:1.25rem;
+    }
+    .garagiste-content img {
+        width:75%;
+        text-align: center;
+    }
 }

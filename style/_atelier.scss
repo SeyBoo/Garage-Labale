@@ -44,3 +44,13 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+@media (min-width: 768px) {
+
+    .atelier-top h6 {
+        font-size: 2.25rem;
+    }
+
+    .atelier-top .atelier-2-style-bar {
+        width:25%;
+    }
+}

@@ -99,11 +99,15 @@
     .contact-content {
         display:flex;
         justify-content:space-between;
+        padding:0% 6%;
     }
 
     .contact-content-bottom {
         order:1;
         align-self: flex-start;
+        height: 30rem;
+        width: 20rem;
+        margin: 0;
     }
 
     .contact-content-top {
@@ -128,7 +132,23 @@
         align-self: flex-end;
     }
 
-    .contact-content-bottom {
-        height: 25rem;
+    .contact-content-map iframe {
+        display:none;
+    }  
+
+    .contact-content-top-bottom p:first-of-type {
+        margin-left:0rem;
+    }   
+
+    .contact-content-top-bottom p {
+        margin-left:0rem;
     }
+
+    .contact-content-top-bottom p:nth-child(2) {
+        padding: .25rem 0rem;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        width: 5.3rem;
+    }
+
 }

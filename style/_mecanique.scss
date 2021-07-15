@@ -48,3 +48,35 @@
     margin: 0 auto;
     margin-top:1rem;
 }
+@media (min-width: 768px) {
+
+    .mecanique-top img {
+        width:15%;
+        height:auto;
+    }
+
+    .mecanique-style-bar-1 {  
+        width:7.5%;
+    }
+
+    .mecanique-top h5 {
+        font-size:1.8rem;
+    }
+
+    .mecanique-content {
+        display:flex;
+    }
+
+    .mecanique-content-testimonial {
+        margin-top:2rem;
+    }
+
+    .mecanique-content-testimonial p {
+        width:80%;
+        margin-top:2.5rem;
+    }
+
+    .mecanique-content-illustration img {
+        width:25rem;
+    }
+}
