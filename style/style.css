@@ -36,6 +36,10 @@ body {
   font-size: 3rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .atelier-top {
   display: flex;
   justify-content: space-between;
@@ -97,6 +101,11 @@ body {
 
   .atelier-top .atelier-2-style-bar {
     width: 25%;
+  }
+}
+@media (min-width: 1024px) {
+  .atelier-top h6 {
+    font-size: 2.75rem;
   }
 }
 .contact-top {
@@ -181,12 +190,10 @@ body {
   margin: 0 auto;
 }
 
-.contact-content-bottom {
-  height: 17.5rem;
+.contact-content-bottom img {
+  height: auto;
   width: 100%;
   margin: 0 auto;
-  background: url(/image/illustration-contact.png) no-repeat;
-  background-size: 100%;
 }
 
 .contact-content-top-bottom p:first-of-type {
@@ -222,9 +229,11 @@ body {
   .contact-content-bottom {
     order: 1;
     align-self: flex-start;
-    height: 30rem;
-    width: 20rem;
     margin: 0;
+  }
+
+  .contact-content-bottom img {
+    width: 90%;
   }
 
   .contact-content-top {
@@ -245,11 +254,6 @@ body {
     text-align: start;
   }
 
-  .contact-content-map {
-    order: 3;
-    align-self: flex-end;
-  }
-
   .contact-content-map iframe {
     display: none;
   }
@@ -267,6 +271,42 @@ body {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     width: 5.3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .contact-top h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-top div {
+    width: 30%;
+  }
+
+  .contact-content-top ol {
+    margin-right: -5rem;
+  }
+
+  .contact-content-top-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-content-map iframe {
+    display: block;
+    width: 20rem;
+    height: 14rem;
+  }
+
+  .contact-content-top ol {
+    width: 21rem;
+  }
+
+  .contact-content-top ol li {
+    font-size: 1.2rem;
+  }
+
+  .contact-content-top-bottom p:nth-child(2) {
+    width: 5.8rem;
   }
 }
 footer img {
@@ -478,15 +518,32 @@ header {
 
   .mecanique-content {
     display: flex;
+    justify-content: space-between;
+    padding: 0rem 6%;
   }
 
   .mecanique-content-testimonial {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   .mecanique-content-testimonial p {
     width: 80%;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .mecanique-content-illustration img {
+    width: 22.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .mecanique-top h5 {
+    font-size: 2.5rem;
+  }
+
+  .mecanique-content-testimonial p {
+    width: 80%;
+    margin-top: 2rem;
+    font-size: 1.1rem;
   }
 
   .mecanique-content-illustration img {
@@ -579,6 +636,10 @@ header {
     font-size: 1.25rem;
     margin-top: 0rem;
     transition: none;
+  }
+
+  .nav-links li:hover {
+    font-size: 1.3rem;
   }
 }
 .reparation-top {
@@ -682,6 +743,14 @@ header {
 @media (min-width: 1024px) {
   .reparation-center p {
     width: 48rem;
+  }
+
+  .reparation-bottom li {
+    cursor: pointer;
+  }
+
+  .reparation-bottom li:hover {
+    opacity: 80%;
   }
 }
 @media (max-width: 768px) {

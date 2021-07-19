@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/style/style.css">
     
     <title>Garage Lagabbe</title>
-   
 </head>
 <body>
     
@@ -27,11 +26,11 @@
                     
                 </div>
                 <ol class="nav-links">
-                    <li class="nav-links-li"><a href="#">Contact</a></li>
-                    <li class="nav-links-li"><a href="#">Réparation</a></li>
-                    <li class="nav-links-li"><a href="#">Garagiste</a></li>
-                    <li class="nav-links-li"><a href="#">Initiation</a></li>
-                    <li class="nav-links-li"><a href="#">L’atelier</a></li>
+                    <li class="nav-links-li nav-links-contact"><a href="#contact">Contact</a></li>
+                    <li class="nav-links-li nav-links-reparation"><a href="#reparation">Réparation</a></li>
+                    <li class="nav-links-li nav-links-garagiste"><a href="#garagiste">Garagiste</a></li>
+                    <li class="nav-links-li nav-links-initiation"><a href="#mecanique">Initiation</a></li>
+                    <li class="nav-links-li nav-links-atelier"><a href="#atelier">L’atelier</a></li>
                 </ol>
             </div>
     
@@ -57,7 +56,7 @@
 
     </header>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <article class="contact-content">
             <div class="contact-content-top">
                 <div class="contact-content-top-top">
@@ -75,7 +74,7 @@
                     </ol>
                 </div> 
                 <div class="mobile contact-content-top-center">
-
+                    
                 </div>
                 <div class="contact-content-top-bottom">
                     <ol>
@@ -88,17 +87,20 @@
                             <p>13h30 - 18h</p>
                         </li>
                     </ol>
-                </div>     
+                    <div class="desktop contact-content-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.6273687540424!2d3.089458441933092!3d50.63701400592316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5f8eba7971f%3A0x3b92a1b110f84de3!2s55%20Rue%20de%20Flers%2C%2059800%20Lille!5e0!3m2!1sfr!2sfr!4v1625742944458!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div> 
+                </div>    
             </div>
+
             <div class="contact-content-bottom">
+                <img src="/image/illustration-contact.png" alt="#">
             </div>
-            <div class="desktop contact-content-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2495.6273687540424!2d3.089458441933092!3d50.63701400592316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2d5f8eba7971f%3A0x3b92a1b110f84de3!2s55%20Rue%20de%20Flers%2C%2059800%20Lille!5e0!3m2!1sfr!2sfr!4v1625742944458!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+            
         </article>
     </section>
 
-   <section class="reparation">
+   <section class="reparation" id="reparation">
         <article class="reparation-top">
             <h3 class="title"><strong>Réparation</strong></h3>
             <div class="reparation-style-bar reparation-style-1"></div>
@@ -142,7 +144,7 @@
         </article>
     </section>
 
-    <section class="garagiste">
+    <section class="garagiste" id="garagiste">
         <article class="garagiste-top">
             <div class="garagiste-style-bar garagiste-style-bar-1"></div>
             <h4 class="title">Votre <strong>Garagiste</strong></h4>
@@ -155,7 +157,7 @@
         </article>
     </section>
 
-    <section class="mecanique">
+    <section class="mecanique" id="mecanique">
         <article class="mecanique-top">
             <div class="desktop mecanique-style-bar mecanique-style-bar-1"></div>
             <h5 class="title"><strong>Initiation</strong> à la <strong>mécanique</strong></h5>
@@ -176,7 +178,7 @@
         </article>
     </section>
 
-    <section class="atelier">
+    <section class="atelier" id="atelier">
         <div class="atelier-top">
             <div class="atelier-1-style-bar"></div>
             <h6 class="title">L’<strong>atelier</strong></h6>

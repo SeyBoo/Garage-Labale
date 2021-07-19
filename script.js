@@ -32,5 +32,40 @@ function showRest() {
     if ($(window).width() < 768) {
         document.querySelector("header").style.display = "none";
      }
-       
+}
+
+document.querySelectorAll(".nav-links-li").forEach(el => el.addEventListener("click",function(e) {
+
+    if(this === "nav-links-li nav-links-contact") {
+        $('html,body').animate({
+            scrollTop: $(".contact").offset().top},
+            'slow');
+    }
+    if(this === "nav-links-li nav-links-reparation") {
+        $('html,body').animate({
+            scrollTop: $(".reperation").offset().top},
+            'slow');
+    }
+    if(this === "nav-links-li nav-links-garagiste") {
+        $('html,body').animate({
+            scrollTop: $(".garagiste").offset().top},
+            'slow');
+    }
+    if(this === "nav-links-li nav-links-initiation") {
+        $('html,body').animate({
+            scrollTop: $(".mecanique").offset().top},
+            'slow');
+    } 
+    if(this === "nav-links-li nav-links-atelier") {
+        $('html,body').animate({
+            scrollTop: $(".atelier").offset().top},
+            'slow');
+    } 
+    if($(window).width() < 768) {
+        document.querySelector("header").style.display = "none";
+      }
+}));
+
+function displayNav() {
+
 }

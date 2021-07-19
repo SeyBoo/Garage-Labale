@@ -44,7 +44,9 @@ body {
     font-weight: lighter;
     font-size:3rem;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 @import "atelier","contact","footer","garagiste","header","mecanique","nav","reparation";
 
 @media (max-width:768px) {
@@ -78,3 +80,4 @@ body {
     }
 
 }
+

@@ -93,5 +93,13 @@
     .reparation-center p {
         width:48rem;
     }
+
+    .reparation-bottom li {
+        cursor: pointer;
+    }
+    
+    .reparation-bottom li:hover {
+        opacity: 80%;
+    } 
     
 }
