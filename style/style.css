@@ -1,18 +1,4 @@
 @font-face {
-  font-family: "gilroyextrabold";
-  src: url("/font/gilroy-extrabold-webfont.woff2") format("woff2"), url("/font/gilroy-extrabold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
-  font-family: "gilroylight";
-  src: url("/font/gilroy-light-webfont.woff2") format("woff2"), url("/font/gilroy-light-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: auto;
-}
-@font-face {
   font-family: "rousseau_decobold";
   src: url("/font/rousseaudeco-webfont.woff2") format("woff2"), url("/font/rousseaudeco-webfont.woff") format("woff");
   font-weight: normal;
@@ -30,6 +16,7 @@
 body {
   font-size: 30px;
   font-family: "Roboto", sans-serif;
+  color: black;
   font-weight: 100;
   line-height: 1.5;
   max-width: 1900px;
@@ -937,7 +924,7 @@ header {
   }
 
   .reparation-bottom li:hover {
-    opacity: 80%;
+    opacity: 50%;
   }
 
   .reparation-bottom li h4 {
