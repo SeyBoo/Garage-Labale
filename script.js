@@ -63,32 +63,71 @@ document.querySelectorAll(".nav-links-li").forEach(el => el.addEventListener("cl
     if($(window).width() < 768) {
         document.querySelector("header").style.display = "none";
       }
-}));
+}))
 
-document.querySelectorAll(".reparation-bottom-li").forEach(el => el.addEventListener("click",function(e) {
-    
-    if(this === "reparation-bottom-li reparation-bottom-controle") {
-        console.log("test");
+function moreControle() {
+
+    var div = document.querySelector(".reparation-bottom-more-controle");
+
+    if ($(div).is(':visible')) {
+        div.style.display = "none";
+    } else {
+        div.style.display = "block";
     }
-    if(this === "nav-links-li nav-links-reparation") {
-        $('html,body').animate({
-            scrollTop: $(".reperation").offset().top},
-            'slow');
+
+}
+function morePneus() {
+
+    var div = document.querySelector(".reparation-bottom-more-pneus");
+
+    if ($(div).is(':visible')) {
+        div.style.display = "none";
+    } else {
+        div.style.display = "block";
     }
-    if(this === "nav-links-li nav-links-garagiste") {
-        $('html,body').animate({
-            scrollTop: $(".garagiste").offset().top},
-            'slow');
+
+}
+function moreDistribution() {
+
+    var div = document.querySelector(".reparation-bottom-more-distribution");
+
+    if ($(div).is(':visible')) {
+        div.style.display = "none";
+    } else {
+        div.style.display = "block";
     }
-    if(this === "nav-links-li nav-links-initiation") {
-        $('html,body').animate({
-            scrollTop: $(".mecanique").offset().top},
-            'slow');
-    } 
-    if(this === "nav-links-li nav-links-atelier") {
-        $('html,body').animate({
-            scrollTop: $(".atelier").offset().top},
-            'slow');
-    } 
-    
-}));
+
+}
+function moreFreins() {
+
+    var div = document.querySelector(".reparation-bottom-more-freins");
+
+    if ($(div).is(':visible')) {
+        div.style.display = "none";
+    } else {
+        div.style.display = "block";
+    }
+
+}
+function moreBatterie() {
+
+    var div = document.querySelector(".reparation-bottom-more-batterie");
+
+    if ($(div).is(':visible')) {
+        div.style.display = "none";
+    } else {
+        div.style.display = "block";
+    }
+
+}
+function moreVidange() {
+
+    var div = document.querySelector(".reparation-bottom-more-vidange");
+
+    if ($(div).is(':visible')) {
+        div.style.display = "none";
+    } else {
+        div.style.display = "block";
+    }
+
+}
