@@ -112,7 +112,7 @@
 
     .contact-content-top {
         order:2;
-        align-self: center;
+        align-self:center;
     }
 
     .contact-content-top ol {
@@ -150,6 +150,10 @@
 
 @media (min-width: 1024px) {
 
+    .contact-content-top {
+        align-self: flex-end;
+    }
+
     .contact-top h2 {
         font-size:2.5rem;
     }
@@ -183,5 +187,30 @@
 
     .contact-content-top-bottom p:nth-child(2) {
         width:5.8rem
+    }
+}
+@media (min-width:1440px) {
+
+    .contact-content-top ol {
+        margin-right: 0rem;
+        margin-left:5rem;
+        width:25rem;
+    }
+
+    .contact-content-top ol li {
+        font-size:1.5rem;
+    }
+
+    .contact-content-top-bottom p:nth-child(2) {
+        width:7rem;
+    }
+
+    .contact-content-bottom img {
+        width:100%;
+    }
+
+    .contact-content-map iframe {
+        width:25rem;
+        height:18rem;
     }
 }

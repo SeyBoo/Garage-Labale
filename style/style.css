@@ -29,7 +29,7 @@
 
 body {
   font-size: 30px;
-  font-family: gilroy, "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   line-height: 1.5;
   max-width: 1900px;
@@ -49,7 +49,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem 6%;
   margin-top: 4rem;
 }
 
@@ -322,6 +322,10 @@ html {
   }
 }
 @media (min-width: 1024px) {
+  .contact-content-top {
+    align-self: flex-end;
+  }
+
   .contact-top h2 {
     font-size: 2.5rem;
   }
@@ -357,6 +361,30 @@ html {
     width: 5.8rem;
   }
 }
+@media (min-width: 1440px) {
+  .contact-content-top ol {
+    margin-right: 0rem;
+    margin-left: 5rem;
+    width: 25rem;
+  }
+
+  .contact-content-top ol li {
+    font-size: 1.5rem;
+  }
+
+  .contact-content-top-bottom p:nth-child(2) {
+    width: 7rem;
+  }
+
+  .contact-content-bottom img {
+    width: 100%;
+  }
+
+  .contact-content-map iframe {
+    width: 25rem;
+    height: 18rem;
+  }
+}
 footer img {
   display: block;
   width: 50%;
@@ -370,7 +398,7 @@ footer img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem 6%;
   margin-top: 8rem;
 }
 
@@ -533,7 +561,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0rem 6%;
 }
 
 .mecanique-top h5 {
@@ -762,7 +790,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0rem 6%;
 }
 
 .reparation-top h3 {

@@ -15,7 +15,6 @@ function menuToggleOn() {
     }, 500);
 }
 
-
 function menuToggleOff() {
     document.querySelector(".menu-mobile").style.width = "0";
     document.querySelector(".nav-close-bar-1").style.transform = "none";
