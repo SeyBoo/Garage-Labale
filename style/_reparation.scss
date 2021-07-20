@@ -114,6 +114,10 @@
     .reparation-bottom ol {
         margin-top:0rem;
     }
+
+    .reparation-bottom li h4 {
+        font-size:1.1rem;
+    }
 }
 @media (min-width: 1024px) {
     
@@ -128,5 +132,22 @@
     .reparation-bottom li:hover {
         opacity: 80%;
     } 
+
+    .reparation-bottom li h4 {
+        font-size:1.2rem;
+    }
     
+}
+@media (min-width:1440px) {
+
+    .reparation-center p {
+        font-size:1.4rem;
+        width:60rem;
+    }
+
+    .reparation-center {
+        margin-top: 3rem;
+    }
+
+
 }
