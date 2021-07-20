@@ -38,15 +38,42 @@
     align-items: center;
     margin-top: 5rem;
 }
-.reparation-bottom li a {
+.reparation-bottom li h4 {
     font-size: .9rem;
     color:black;
+    font-weight:100;
     margin-top:.5rem;
 }
 .reparation-bottom li img {
     width:2.25rem;
     height:auto;
 }
+.reparation-bottom-more {
+    display:none;
+    position: absolute;
+    z-index: 1;
+    background-color:white;
+    width: 100vw;
+    text-align: center;
+    height:20rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 35vw;
+}
+.reparation-bottom li .reparation-bottom-more img {
+    width:20%;
+    height:auto;
+}
+.reparation-bottom-more p {
+    width:90%;
+    margin: 0 auto;
+    margin-top:1.5rem;
+    font-size:1rem;
+}
+.reparation-bottom-li:focus + .reparation-bottom-more {
+    display:block;
+}
+
 @media (min-width: 768px) {
 
     .reparation-top h3 {

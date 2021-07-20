@@ -70,7 +70,7 @@
     }
 
     .mecanique-content-testimonial {
-        margin-top:1rem;
+        margin-top:3vw;
     }
 
     .mecanique-content-testimonial p {
@@ -96,5 +96,48 @@
 
     .mecanique-content-illustration img {
         width:25rem;
+    }
+}
+@media (min-width: 1200px) {
+   
+    .mecanique-content-testimonial p {
+        width:25rem;
+    }
+
+    .mecanique-content-illustration img {
+        width:70%;
+    }
+}
+
+@media (min-width:1440px) {
+
+    .mecanique-content-testimonial p {
+        font-size:1.25rem;
+        width:30rem;
+    }
+
+    .mecanique-content-illustration img {
+        width:80%;
+    }
+}
+@media (min-width:1700px) {
+
+    .mecanique-content-testimonial p {
+        font-size:1.4rem;
+        width:35rem;
+    }
+
+    .mecanique-content-illustration img {
+        width:90%;
+    }
+}
+@media (min-width:1900px) {
+
+    .mecanique-content-testimonial p {
+        font-size:1.5rem;
+    }
+
+    .mecanique-content-illustration img {
+        width:100%;
     }
 }

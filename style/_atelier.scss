@@ -44,6 +44,9 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.atelier .row-desktop {
+    display: none;
+}
 @media (min-width: 768px) {
 
     .atelier-top h6 {
@@ -52,6 +55,45 @@
 
     .atelier-top .atelier-2-style-bar {
         width:25%;
+    }
+
+    .footer-bottom {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .atelier-illustration-01 {
+        order:1;
+    }
+
+    .atelier-ilustration-row {
+        order:2;
+        display: flex; 
+        align-items:center;
+        padding: 0% 6%;
+    }
+
+    .atelier-illustration-02 {
+        order:3;
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+    .atelier .row-mobile {
+        display:none;
+    }
+
+    .atelier .row-desktop {
+        display:block;
+    }
+
+    .atelier .span-row-2 {
+        height:20vw;
+        width:1px;
+    }
+    
+    .atelier span {
+        width:20%;
     }
 }
 @media (min-width: 1024px) {

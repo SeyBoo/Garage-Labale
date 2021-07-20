@@ -3,18 +3,21 @@
   src: url("/font/gilroy-extrabold-webfont.woff2") format("woff2"), url("/font/gilroy-extrabold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: "gilroylight";
   src: url("/font/gilroy-light-webfont.woff2") format("woff2"), url("/font/gilroy-light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 @font-face {
   font-family: "rousseau_decobold";
-  src: url("/font/gilroy-extrabold-webfont.woff2") format("woff2"), url("/font/rousseaudeco-webfont.woff") format("woff");
+  src: url("/font/rousseaudeco-webfont.woff2") format("woff2"), url("/font/rousseaudeco-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: auto;
 }
 * {
   padding: 0;
@@ -29,6 +32,8 @@ body {
   font-family: gilroy, "sans-serif";
   font-weight: 100;
   line-height: 1.5;
+  max-width: 1900px;
+  margin: 0 auto;
 }
 
 .title {
@@ -94,6 +99,10 @@ html {
   margin-bottom: 2rem;
 }
 
+.atelier .row-desktop {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .atelier-top h6 {
     font-size: 2.25rem;
@@ -101,6 +110,45 @@ html {
 
   .atelier-top .atelier-2-style-bar {
     width: 25%;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .atelier-illustration-01 {
+    order: 1;
+  }
+
+  .atelier-ilustration-row {
+    order: 2;
+    display: flex;
+    align-items: center;
+    padding: 0% 6%;
+  }
+
+  .atelier-illustration-02 {
+    order: 3;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .atelier .row-mobile {
+    display: none;
+  }
+
+  .atelier .row-desktop {
+    display: block;
+  }
+
+  .atelier .span-row-2 {
+    height: 20vw;
+    width: 1px;
+  }
+
+  .atelier span {
+    width: 20%;
   }
 }
 @media (min-width: 1024px) {
@@ -395,7 +443,7 @@ header {
 
 .header-top h1 {
   font-family: rousseau_decobold;
-  font-size: 2.5rem;
+  font-size: 4rem;
   width: 15rem;
   margin: 0 auto;
 }
@@ -431,14 +479,14 @@ header {
   .header-top img {
     width: 90%;
     height: auto;
-    margin-top: 0vh;
+    margin-top: -1.5rem;
     margin-left: -20%;
   }
 
   .header-top h1 {
     width: 62.5vw;
-    font-size: 3.25rem;
-    margin-top: 2.5rem;
+    font-size: 4rem;
+    margin-top: 1.5rem;
     transform: scale(1, 1.3);
   }
 
@@ -446,6 +494,35 @@ header {
     width: 90%;
     height: auto;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) {
+  .header-top h1 {
+    font-size: 5.5rem;
+  }
+
+  .header-top-logo img {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .header-top h1 {
+    font-size: 6.25rem;
+  }
+}
+@media (min-width: 1440px) {
+  .header-top h1 {
+    font-size: 7.5rem;
+  }
+}
+@media (min-width: 1700px) {
+  .header-top h1 {
+    font-size: 8rem;
+  }
+}
+@media (min-width: 1900px) {
+  .header-top h1 {
+    font-size: 9.5rem;
   }
 }
 .mecanique {
@@ -523,7 +600,7 @@ header {
   }
 
   .mecanique-content-testimonial {
-    margin-top: 1rem;
+    margin-top: 3vw;
   }
 
   .mecanique-content-testimonial p {
@@ -548,6 +625,44 @@ header {
 
   .mecanique-content-illustration img {
     width: 25rem;
+  }
+}
+@media (min-width: 1200px) {
+  .mecanique-content-testimonial p {
+    width: 25rem;
+  }
+
+  .mecanique-content-illustration img {
+    width: 70%;
+  }
+}
+@media (min-width: 1440px) {
+  .mecanique-content-testimonial p {
+    font-size: 1.25rem;
+    width: 30rem;
+  }
+
+  .mecanique-content-illustration img {
+    width: 80%;
+  }
+}
+@media (min-width: 1700px) {
+  .mecanique-content-testimonial p {
+    font-size: 1.4rem;
+    width: 35rem;
+  }
+
+  .mecanique-content-illustration img {
+    width: 90%;
+  }
+}
+@media (min-width: 1900px) {
+  .mecanique-content-testimonial p {
+    font-size: 1.5rem;
+  }
+
+  .mecanique-content-illustration img {
+    width: 100%;
   }
 }
 .menu-mobile {
@@ -623,6 +738,7 @@ header {
     display: block;
     width: 100%;
     text-align: start;
+    background-color: transparent;
   }
 
   .nav-links {
@@ -689,15 +805,45 @@ header {
   margin-top: 5rem;
 }
 
-.reparation-bottom li a {
+.reparation-bottom li h4 {
   font-size: 0.9rem;
   color: black;
+  font-weight: 100;
   margin-top: 0.5rem;
 }
 
 .reparation-bottom li img {
   width: 2.25rem;
   height: auto;
+}
+
+.reparation-bottom-more {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 100vw;
+  text-align: center;
+  height: 20rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 35vw;
+}
+
+.reparation-bottom li .reparation-bottom-more img {
+  width: 20%;
+  height: auto;
+}
+
+.reparation-bottom-more p {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+.reparation-bottom-li:focus + .reparation-bottom-more {
+  display: block;
 }
 
 @media (min-width: 768px) {

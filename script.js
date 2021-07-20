@@ -66,6 +66,30 @@ document.querySelectorAll(".nav-links-li").forEach(el => el.addEventListener("cl
       }
 }));
 
-function displayNav() {
-
-}
+document.querySelectorAll(".reparation-bottom-li").forEach(el => el.addEventListener("click",function(e) {
+    
+    if(this === "reparation-bottom-li reparation-bottom-controle") {
+        console.log("test");
+    }
+    if(this === "nav-links-li nav-links-reparation") {
+        $('html,body').animate({
+            scrollTop: $(".reperation").offset().top},
+            'slow');
+    }
+    if(this === "nav-links-li nav-links-garagiste") {
+        $('html,body').animate({
+            scrollTop: $(".garagiste").offset().top},
+            'slow');
+    }
+    if(this === "nav-links-li nav-links-initiation") {
+        $('html,body').animate({
+            scrollTop: $(".mecanique").offset().top},
+            'slow');
+    } 
+    if(this === "nav-links-li nav-links-atelier") {
+        $('html,body').animate({
+            scrollTop: $(".atelier").offset().top},
+            'slow');
+    } 
+    
+}));
