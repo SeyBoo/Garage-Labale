@@ -15,7 +15,7 @@
 
 body {
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
   line-height: 1.5;
   max-width: 1900px;
@@ -336,7 +336,7 @@ html {
   }
 
   .contact-content-top ol {
-    width: 21rem;
+    width: 21.2rem;
   }
 
   .contact-content-top ol li {
@@ -359,7 +359,7 @@ html {
   }
 
   .contact-content-top-bottom p:nth-child(2) {
-    width: 7rem;
+    width: 7.3rem;
   }
 
   .contact-content-bottom img {
@@ -866,12 +866,12 @@ header {
 }
 
 .reparation-bottom-more-batterie .reparation-bottom-more-content p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1.2;
 }
 
 .reparation-bottom-more-vidange .reparation-bottom-more-content p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1.5;
 }
 
