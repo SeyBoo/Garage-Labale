@@ -861,14 +861,49 @@ header {
 .reparation-bottom-more p {
   width: 90%;
   margin: 0 auto;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.reparation-bottom-more-batterie .reparation-bottom-more-content p {
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.reparation-bottom-more-vidange .reparation-bottom-more-content p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.reparation-bottom-more-content {
   margin-top: 1.5rem;
-  font-size: 1rem;
 }
 
 .reparation-bottom-li:focus + .reparation-bottom-more {
   display: block;
 }
 
+.reparation-bottom-content {
+  text-align: center;
+}
+
+.reparation-bottom-more-bottom {
+  margin-top: -5vw;
+}
+
+@media (min-width: 450px) {
+  .reparation-bottom-more {
+    margin-top: 20vw;
+  }
+
+  .reparation-bottom-more-bottom {
+    margin-top: 0vh;
+  }
+
+  .reparation-bottom li .reparation-bottom-more img {
+    width: 6rem;
+  }
+}
 @media (min-width: 768px) {
   .reparation-top h3 {
     order: 3;
@@ -912,6 +947,31 @@ header {
   .reparation-bottom li h4 {
     font-size: 1.1rem;
   }
+
+  .reparation-bottom-more {
+    margin-top: 10rem;
+  }
+
+  .reparation-bottom-more-bottom {
+    margin-top: -3rem;
+  }
+
+  .reparation-bottom-more-content {
+    margin-top: 5vh;
+  }
+
+  .reparation-bottom-more p {
+    font-size: 1.25rem;
+    max-width: 60rem;
+  }
+
+  .reparation-bottom-more-batterie .reparation-bottom-more-content p {
+    font-size: 0.9rem;
+  }
+
+  .reparation-bottom-more-vidange .reparation-bottom-more-content p {
+    font-size: 1.1rem;
+  }
 }
 @media (min-width: 1024px) {
   .reparation-center p {
@@ -922,12 +982,16 @@ header {
     cursor: pointer;
   }
 
-  .reparation-bottom li:hover {
+  .reparation-bottom-content:hover {
     opacity: 50%;
   }
 
   .reparation-bottom li h4 {
     font-size: 1.2rem;
+  }
+
+  .reparation-bottom-more-batterie .reparation-bottom-more-content p {
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1440px) {
