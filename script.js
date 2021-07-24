@@ -9,7 +9,7 @@
 
 
 document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("click",function(e) {
-
+    document.querySelector('nav').remove("menu-open");
     if(this === "menu-item menu-item-contact") {
         $('html,body').animate({
             scrollTop: $(".contact").offset().top},
