@@ -509,7 +509,7 @@ header {
     width: 90%;
     height: auto;
     margin-top: -1.5rem;
-    margin-left: -20%;
+    margin-left: -30%;
   }
 
   .header-top h1 {
@@ -771,7 +771,7 @@ nav {
 }
 
 .mobile-links {
-  margin-top: 25vh;
+  margin-top: 15vh;
 }
 
 .mobile-links li a {
@@ -800,7 +800,8 @@ nav {
   .mobile-links {
     display: flex;
     justify-content: space-between;
-    padding: 4% 6%;
+    padding: 0% 6%;
+    padding-top: 4%;
     margin-top: 0vh;
   }
 

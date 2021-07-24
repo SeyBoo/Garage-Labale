@@ -70,7 +70,7 @@ nav {
 	transform: translateY(3px) rotate(-45deg);
 }
 .mobile-links {
-    margin-top: 25vh;
+    margin-top: 15vh;
 }
 .mobile-links li a {
     color:black;
@@ -94,7 +94,8 @@ nav {
 	.mobile-links {
 		display: flex;
 		justify-content: space-between;
-		padding: 4% 6%;
+		padding: 0% 6%;
+		padding-top: 4%;
 		margin-top: 0vh;
 	}
 	.mobile-links li {
