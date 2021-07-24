@@ -625,7 +625,11 @@ header {
   }
 
   .mecanique-style-bar-1 {
-    width: 7.5%;
+    width: 20%;
+  }
+
+  .mecanique-style-bar-2 {
+    width: 10%;
   }
 
   .mecanique-top h5 {
