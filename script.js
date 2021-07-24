@@ -35,9 +35,7 @@ document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("cl
             scrollTop: $(".atelier").offset().top},
             'slow');
     } 
-    if($(window).width() < 768) {
-        document.querySelector("header").style.display = "none";
-      }
+
 }))
 
 function moreControle() {
