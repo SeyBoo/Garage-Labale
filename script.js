@@ -8,12 +8,6 @@
   }());
 
 
-function showRest() {
-    if ($(window).width() < 768) {
-        document.querySelector("header").style.display = "none";
-     }
-}
-
 document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("click",function(e) {
 
     if(this === "menu-item menu-item-contact") {

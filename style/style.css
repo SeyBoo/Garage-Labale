@@ -143,12 +143,11 @@ html {
   }
 }
 .contact-top {
-  position: fixed;
-  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-top: 15vh;
 }
 
 .contact-top h2 {
@@ -465,9 +464,6 @@ footer img {
 header {
   height: 100%;
   width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
   text-align: center;
   background-color: white;
 }

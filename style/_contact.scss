@@ -1,10 +1,9 @@
 .contact-top {
-    position: fixed;
-    bottom: 0;
     display:flex;
     align-items:center;
     justify-content: space-between;
     width:100%;
+    margin-top: 15vh;
 }
 .contact-top h2 {
     font-size:1.5rem;
