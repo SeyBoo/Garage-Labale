@@ -7,7 +7,9 @@ header {
     text-align:center;
     background-color: white;
 }
-
+.header-top {
+    margin-top: 10%;
+}
 .header-top h1 {
     font-family: rousseau_decobold;
     font-size:3rem;
@@ -42,6 +44,7 @@ header {
         flex-direction:row-reverse;
         justify-content:space-between;
         padding: 0% 6%;
+        margin-top: 3%;
     }
 
     .header-top-logo-style-bar {
