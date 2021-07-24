@@ -9,7 +9,8 @@
 
 
 document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("click",function(e) {
-    document.querySelector('nav').remove("menu-open");
+    document.querySelector('nav').style.display = "none";
+    document.querySelector('nav').classList.remove('menu-open');
     if(this === "menu-item menu-item-contact") {
         $('html,body').animate({
             scrollTop: $(".contact").offset().top},
@@ -35,7 +36,9 @@ document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("cl
             scrollTop: $(".atelier").offset().top},
             'slow');
     } 
-
+    setTimeout(function() {
+        document.querySelector('nav').style.display = "block";
+    },1000);
 }))
 
 function moreControle() {
