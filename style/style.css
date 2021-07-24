@@ -147,7 +147,7 @@ html {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 15vh;
+  margin-top: 25%;
 }
 
 .contact-top h2 {
@@ -308,7 +308,7 @@ html {
 }
 @media (min-width: 1024px) {
   .contact-content-top {
-    align-self: flex-end;
+    align-self: center;
   }
 
   .contact-top h2 {
