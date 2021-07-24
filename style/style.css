@@ -829,7 +829,7 @@ nav {
   }
 
   .mobile-links li a:hover {
-    text-decoration: underline;
+    opacity: 50%;
   }
 }
 .reparation-top {
