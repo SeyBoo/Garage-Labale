@@ -242,6 +242,7 @@ html {
     position: relative;
     padding: 4% 6%;
     justify-content: flex-end;
+    margin-top: 0%;
   }
 
   .contact-top h2 {
@@ -390,6 +391,7 @@ footer img {
   margin-top: 7rem;
   height: auto;
   padding-bottom: 4rem;
+  max-width: 500px;
 }
 
 .garagiste-top {
@@ -823,7 +825,7 @@ nav {
   }
 
   .mobile-links li a:hover {
-    font-size: 1.6rem;
+    text-decoration: underline;
   }
 }
 .reparation-top {
