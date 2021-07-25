@@ -166,8 +166,6 @@
     }
 
     .contact-content-top-bottom {
-        display:flex;
-        justify-content:space-between;
         margin-top: 15%;
     }
     
@@ -188,6 +186,7 @@
         overflow: hidden;
         width: 100%;
         padding-top: 56.25%;
+        margin:2.5% 0;
     }
 
     .contact-map iframe {
@@ -200,22 +199,15 @@
         height: 100%;
     }
 
+    .contact-content-bottom img {
+        width:45vw;
+    }
+
 }
 
-@media (min-width:1224px) {
-
-    .contact-content-top ol {
-        margin-right: -2.5rem;
-    } 
-    .contact-content-map iframe {
-        height:35vh;
-    }  
-}
 @media (min-width:1440px) {
 
     .contact-content-top ol {
-        margin-right: 0rem;
-        margin-left:5rem;
         width:26rem;
     }
 
@@ -227,10 +219,12 @@
         width:7.3rem;
     }
 
-    .contact-content-top ol {
-        margin-right: 0rem;
-    } 
     .contact-content-map iframe {
         width: 25vw;
-    }  
+    }
+
+    .contact-content-top {
+        margin-right: 6%;
+    }
+
 }
