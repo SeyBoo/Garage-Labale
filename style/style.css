@@ -257,6 +257,9 @@ html {
   .contact-content {
     display: flex;
     justify-content: space-between;
+  }
+
+  .contact {
     padding: 0% 6%;
   }
 
@@ -320,20 +323,10 @@ html {
     width: 30%;
   }
 
-  .contact-content-top ol {
-    margin-right: -5rem;
-  }
-
   .contact-content-top-bottom {
     display: flex;
     justify-content: space-between;
     margin-top: 15%;
-  }
-
-  .contact-content-map iframe {
-    display: block;
-    width: 30vw;
-    height: 30vh;
   }
 
   .contact-content-top ol {
@@ -341,15 +334,28 @@ html {
   }
 
   .contact-content-top ol li {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .contact-content-top-bottom p:nth-child(2) {
-    width: 5.8rem;
+    width: 6.3rem;
   }
 
-  .contact-content-bottom img {
-    width: 30vw;
+  .contact-map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+
+  .contact-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 @media (min-width: 1224px) {
@@ -439,7 +445,7 @@ footer img {
 
 @media (min-width: 768px) {
   .garagiste-top h4 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .garagiste-style-bar-2 {
@@ -459,16 +465,18 @@ footer img {
     text-align: center;
   }
 }
+@media (min-width: 1024px) {
+  .garagiste-top h4 {
+    font-size: 2.25rem;
+  }
+}
 @media (min-width: 1400px) {
   .garagiste-content p {
     font-size: 1.4rem;
   }
 }
 header {
-  height: 100%;
-  width: 100%;
   text-align: center;
-  background-color: white;
 }
 
 .header-top {
@@ -478,7 +486,7 @@ header {
 .header-top h1 {
   font-family: rousseau_decobold;
   font-size: 3rem;
-  width: 15rem;
+  width: 11rem;
   margin: 0 auto;
 }
 
@@ -633,7 +641,7 @@ header {
   }
 
   .mecanique-top h5 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .mecanique-content {
@@ -657,7 +665,7 @@ header {
 }
 @media (min-width: 1024px) {
   .mecanique-top h5 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 
   .mecanique-content-testimonial p {
@@ -727,6 +735,10 @@ nav {
 
 .menu-open .mobile-menu {
   width: 100%;
+}
+
+.menu-item a {
+  font-size: 1.25rem;
 }
 
 .icon-container {
@@ -958,7 +970,7 @@ nav {
 @media (min-width: 768px) {
   .reparation-top h3 {
     order: 3;
-    font-size: 2.25rem;
+    font-size: 2.1rem;
   }
 
   .order-top img {

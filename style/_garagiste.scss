@@ -37,7 +37,7 @@
 @media(min-width: 768px) {
 
     .garagiste-top h4 {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 
     .garagiste-style-bar-2 {
@@ -54,6 +54,13 @@
         width:75%;
         text-align: center;
     }
+}
+@media (min-width:1024px) {
+    
+    .garagiste-top h4 {
+        font-size: 2.25rem;
+    }
+
 }
 @media (min-width:1400px) {
     
