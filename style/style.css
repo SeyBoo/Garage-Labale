@@ -148,6 +148,7 @@ html {
   justify-content: space-between;
   width: 100%;
   margin-top: 25%;
+  padding: 4% 6%;
 }
 
 .contact-top h2 {
@@ -240,7 +241,6 @@ html {
 @media (min-width: 768px) {
   .contact-top {
     position: relative;
-    padding: 4% 6%;
     justify-content: flex-end;
     margin-top: 0%;
   }
@@ -250,8 +250,7 @@ html {
   }
 
   .contact-top div {
-    width: 25%;
-    margin-right: 7.5%;
+    margin-right: 6%;
   }
 
   .contact-content {
