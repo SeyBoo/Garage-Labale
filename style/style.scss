@@ -31,7 +31,17 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 @import "atelier","contact","footer","garagiste","header","mecanique","nav","reparation";
+
+section {
+    opacity: 0;
+    transition: opacity 350ms ease-in;
+  }
+  
+  section.appear {
+    opacity: 1;
+  }
 
 @media (max-width:768px) {
     

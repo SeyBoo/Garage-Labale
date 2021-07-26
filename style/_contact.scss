@@ -7,7 +7,7 @@
     padding: 4% 6%;
 }
 .contact-top h2 {
-    font-size:1.5rem;
+    font-size:1.35rem;
     margin-right: .5rem;
 }
 .contact-top div {
@@ -18,7 +18,7 @@
 }
 @media (max-width:380px) {
     .contact-top h2 {
-        font-size:1.4rem;
+        font-size:1.3rem;
     }
     .contact-top div {
         width:45%;
@@ -26,11 +26,9 @@
 }
 @media (max-width:320px) {
     .contact-top h2 {
-        font-size:1.4rem;
+        font-size:1.1rem;
     }
-    .contact-top div {
-        width:40%;
-    }  
+ 
 }
 .contact-content-top {
     padding: 2rem 0rem;

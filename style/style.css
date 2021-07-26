@@ -152,7 +152,7 @@ html {
 }
 
 .contact-top h2 {
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   margin-right: 0.5rem;
 }
 
@@ -165,7 +165,7 @@ html {
 
 @media (max-width: 380px) {
   .contact-top h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .contact-top div {
@@ -174,11 +174,7 @@ html {
 }
 @media (max-width: 320px) {
   .contact-top h2 {
-    font-size: 1.4rem;
-  }
-
-  .contact-top div {
-    width: 40%;
+    font-size: 1.1rem;
   }
 }
 .contact-content-top {
@@ -1058,6 +1054,15 @@ nav {
     margin-top: 3rem;
   }
 }
+section {
+  opacity: 0;
+  transition: opacity 350ms ease-in;
+}
+
+section.appear {
+  opacity: 1;
+}
+
 @media (max-width: 768px) {
   .desktop {
     display: none;
