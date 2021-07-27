@@ -13,7 +13,7 @@
         document.querySelector('nav').style.display = "none";
         $('html, body').animate({
         scrollTop: $(".contact").offset().top
-        }, 250)
+        }, 'slow')
         setTimeout(function() {
             document.querySelector('nav').style.display = "block";
         },1000);
@@ -23,7 +23,7 @@
         document.querySelector('nav').style.display = "none";
       $('html, body').animate({
         scrollTop: $(".reparation").offset().top
-      }, 250)
+      }, 'slow')
       setTimeout(function() {
         document.querySelector('nav').style.display = "block";
     },1000);
@@ -33,7 +33,7 @@
         document.querySelector('nav').style.display = "none";
       $('html, body').animate({
         scrollTop: $(".garagiste").offset().top
-      }, 250)
+      }, 'slow')
       setTimeout(function() {
         document.querySelector('nav').style.display = "block";
     },1000);
@@ -43,7 +43,7 @@
         document.querySelector('nav').style.display = "none";
         $('html, body').animate({
           scrollTop: $(".mecanique").offset().top
-        }, 250)
+        }, 'slow')
         setTimeout(function() {
             document.querySelector('nav').style.display = "block";
         },1000);
@@ -53,7 +53,7 @@
         document.querySelector('nav').style.display = "none";
         $('html, body').animate({
           scrollTop: $(".atelier").offset().top
-        }, 250)
+        }, 'slow')
         setTimeout(function() {
             document.querySelector('nav').style.display = "block";
         },1000);
