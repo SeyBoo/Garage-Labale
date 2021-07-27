@@ -12,35 +12,29 @@ document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("cl
     document.querySelector('nav').style.display = "none";
     document.querySelector('nav').classList.remove('menu-open');
     if(this === "menu-item menu-item-contact") {
-        $('html,body').animate({
-            scrollTop: $(".contact").offset().top},
-            'slow');
+            window.scrollTo($(".contact").offset().top,'slow');
     }
     if(this === "menu-item menu-item-reparation") {
-        $('html,body').animate({
-            scrollTop: $(".reperation").offset().top},
-            'slow');
+        window.scrollTo($(".reparation").offset().top,'slow');
     }
     if(this === "menu-item menu-item-garagiste") {
-        $('html,body').animate({
-            scrollTop: $(".garagiste").offset().top},
-            'slow');
+        window.scrollTo($(".garagiste").offset().top,'slow');
     }
     if(this === "menu-item menu-item-initiation") {
-        $('html,body').animate({
-            scrollTop: $(".mecanique").offset().top},
-            'slow');
+        window.scrollTo($(".initiation").offset().top,'slow');
     } 
     if(this === "menu-item menu-item-atelier") {
-        $('html,body').animate({
-            scrollTop: $(".atelier").offset().top},
-            'slow');
+        window.scrollTo($(".atelier").offset().top,'slow');
     } 
     setTimeout(function() {
         document.querySelector('nav').style.display = "block";
     },1000);
 }))
-
+/*
+ $('html,body').animate({
+            scrollTop: $(".atelier").offset().top},
+            'slow');
+*/
 function moreControle() {
 
     var div = document.querySelector(".reparation-bottom-more-controle");
