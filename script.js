@@ -7,34 +7,59 @@
       }
   }());
 
-
-document.querySelectorAll(".mobile-links").forEach(el => el.addEventListener("click",function(e) {
-    document.querySelector('nav').style.display = "none";
-    document.querySelector('nav').classList.remove('menu-open');
-    if(this === "menu-item menu-item-contact") {
-            window.scrollTo($(".contact").offset().top,'slow');
-    }
-    if(this === "menu-item menu-item-reparation") {
-        window.scrollTo($(".reparation").offset().top,'slow');
-    }
-    if(this === "menu-item menu-item-garagiste") {
-        window.scrollTo($(".garagiste").offset().top,'slow');
-    }
-    if(this === "menu-item menu-item-initiation") {
-        window.scrollTo($(".initiation").offset().top,'slow');
-    } 
-    if(this === "menu-item menu-item-atelier") {
-        window.scrollTo($(".atelier").offset().top,'slow');
-    } 
-    setTimeout(function() {
+  $(document).ready(function () {
+    $('.menu-item-contact').click(function() {
+        document.querySelector('nav').classList.remove('menu-open');
+        document.querySelector('nav').style.display = "none";
+        $('html, body').animate({
+        scrollTop: $(".contact").offset().top
+        }, 250)
+        setTimeout(function() {
+            document.querySelector('nav').style.display = "block";
+        },1000);
+    }),
+    $('.menu-item-reparation').click(function (){
+        document.querySelector('nav').classList.remove('menu-open');
+        document.querySelector('nav').style.display = "none";
+      $('html, body').animate({
+        scrollTop: $(".reparation").offset().top
+      }, 250)
+      setTimeout(function() {
         document.querySelector('nav').style.display = "block";
     },1000);
-}))
-/*
- $('html,body').animate({
-            scrollTop: $(".atelier").offset().top},
-            'slow');
-*/
+    }),
+    $('.menu-item-garagiste').click(function (){
+        document.querySelector('nav').classList.remove('menu-open');
+        document.querySelector('nav').style.display = "none";
+      $('html, body').animate({
+        scrollTop: $(".garagiste").offset().top
+      }, 250)
+      setTimeout(function() {
+        document.querySelector('nav').style.display = "block";
+    },1000);
+    }),
+    $('.menu-item-mecanique').click(function (){
+        document.querySelector('nav').classList.remove('menu-open');
+        document.querySelector('nav').style.display = "none";
+        $('html, body').animate({
+          scrollTop: $(".mecanique").offset().top
+        }, 250)
+        setTimeout(function() {
+            document.querySelector('nav').style.display = "block";
+        },1000);
+      }),
+    $('.menu-item-atelier').click(function (){
+        document.querySelector('nav').classList.remove('menu-open');
+        document.querySelector('nav').style.display = "none";
+        $('html, body').animate({
+          scrollTop: $(".atelier").offset().top
+        }, 250)
+        setTimeout(function() {
+            document.querySelector('nav').style.display = "block";
+        },1000);
+      })
+  });
+
 function moreControle() {
 
     var div = document.querySelector(".reparation-bottom-more-controle");
