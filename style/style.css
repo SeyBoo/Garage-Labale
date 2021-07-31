@@ -399,23 +399,19 @@ footer img {
 }
 
 .garagiste-top h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .garagiste-style-bar {
   display: block;
-  width: 45%;
+  width: 37.5%;
   height: 1px;
   background-color: black;
 }
 
-@media (max-width: 375px) {
-  .garagiste-top h4 {
-    font-size: 1.3rem;
-  }
-
+@media (min-width: 375px) {
   .garagiste-style-bar {
-    width: 42.5%;
+    width: 45%;
   }
 }
 .garagiste-content img {

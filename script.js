@@ -12,7 +12,7 @@
         document.querySelector('nav').classList.remove('menu-open');
         document.querySelector('nav').style.display = "none";
         $('html, body').animate({
-        scrollTop: $(".contact").offset().top
+        scrollTop: $(".contact-top").offset().top
         }, 'slow')
         setTimeout(function() {
             document.querySelector('nav').style.display = "block";
@@ -22,7 +22,7 @@
         document.querySelector('nav').classList.remove('menu-open');
         document.querySelector('nav').style.display = "none";
       $('html, body').animate({
-        scrollTop: $(".reparation").offset().top
+        scrollTop: $(".reparation-top").offset().top
       }, 'slow')
       setTimeout(function() {
         document.querySelector('nav').style.display = "block";
@@ -32,7 +32,7 @@
         document.querySelector('nav').classList.remove('menu-open');
         document.querySelector('nav').style.display = "none";
       $('html, body').animate({
-        scrollTop: $(".garagiste").offset().top
+        scrollTop: $(".garagiste-top").offset().top
       }, 'slow')
       setTimeout(function() {
         document.querySelector('nav').style.display = "block";
@@ -42,7 +42,7 @@
         document.querySelector('nav').classList.remove('menu-open');
         document.querySelector('nav').style.display = "none";
         $('html, body').animate({
-          scrollTop: $(".mecanique").offset().top
+          scrollTop: $(".mecanique-top").offset().top
         }, 'slow')
         setTimeout(function() {
             document.querySelector('nav').style.display = "block";
@@ -52,7 +52,7 @@
         document.querySelector('nav').classList.remove('menu-open');
         document.querySelector('nav').style.display = "none";
         $('html, body').animate({
-          scrollTop: $(".atelier").offset().top
+          scrollTop: $(".atelier-top").offset().top
         }, 'slow')
         setTimeout(function() {
             document.querySelector('nav').style.display = "block";
