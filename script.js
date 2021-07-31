@@ -12,7 +12,7 @@
           document.querySelector('.mobile-menu').style.transition = "none";
           document.querySelector('nav').classList.remove('menu-open');
         $('html, body').animate({
-        scrollTop: $(".contact-top").offset().top
+        scrollTop: $(".contact").offset().top
         }, 'slow')
         setTimeout(function() {
           document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
@@ -22,7 +22,7 @@
         document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
       $('html, body').animate({
-        scrollTop: $(".reparation-top").offset().top
+        scrollTop: $(".reparation").offset().top
       }, 'slow')
       setTimeout(function() {
         document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
@@ -32,7 +32,7 @@
         document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
       $('html, body').animate({
-        scrollTop: $(".garagiste-top").offset().top
+        scrollTop: $(".garagiste").offset().top
       }, 'slow')
       setTimeout(function() {
         document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
@@ -42,7 +42,7 @@
         document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
         $('html, body').animate({
-          scrollTop: $(".mecanique-top").offset().top
+          scrollTop: $(".mecanique").offset().top
         }, 'slow')
         setTimeout(function() {
           document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
@@ -52,7 +52,7 @@
         document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
         $('html, body').animate({
-          scrollTop: $(".atelier-top").offset().top
+          scrollTop: $(".atelier").offset().top
         }, 'slow')
         setTimeout(function() {
           document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
