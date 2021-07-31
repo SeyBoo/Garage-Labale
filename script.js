@@ -9,53 +9,53 @@
 
   $(document).ready(function () {
     $('.menu-item-contact').click(function() {
-        document.querySelector('nav').classList.remove('menu-open');
-        //document.querySelector('nav').style.display = "none";
+          document.querySelector('.mobile-menu').style.transition = "none";
+          document.querySelector('nav').classList.remove('menu-open');
         $('html, body').animate({
         scrollTop: $(".contact-top").offset().top
         }, 'slow')
         setTimeout(function() {
-            document.querySelector('nav').style.display = "block";
+          document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
         },1000);
     }),
     $('.menu-item-reparation').click(function (){
+        document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
-        document.querySelector('nav').style.display = "none";
       $('html, body').animate({
         scrollTop: $(".reparation-top").offset().top
       }, 'slow')
       setTimeout(function() {
-        document.querySelector('nav').style.display = "block";
-    },1000);
+        document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
+      },1000);
     }),
     $('.menu-item-garagiste').click(function (){
+        document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
-        document.querySelector('nav').style.display = "none";
       $('html, body').animate({
         scrollTop: $(".garagiste-top").offset().top
       }, 'slow')
       setTimeout(function() {
-        document.querySelector('nav').style.display = "block";
-    },1000);
+        document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
+      },1000);
     }),
     $('.menu-item-mecanique').click(function (){
+        document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
-        document.querySelector('nav').style.display = "none";
         $('html, body').animate({
           scrollTop: $(".mecanique-top").offset().top
         }, 'slow')
         setTimeout(function() {
-            document.querySelector('nav').style.display = "block";
-        },1000);
+          document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
+        },1000);;
       }),
     $('.menu-item-atelier').click(function (){
+        document.querySelector('.mobile-menu').style.transition = "none";
         document.querySelector('nav').classList.remove('menu-open');
-        document.querySelector('nav').style.display = "none";
         $('html, body').animate({
           scrollTop: $(".atelier-top").offset().top
         }, 'slow')
         setTimeout(function() {
-            document.querySelector('nav').style.display = "block";
+          document.querySelector('.mobile-menu').style.transition = "all 1.25s ease 0s";
         },1000);
       })
   });
