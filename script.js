@@ -10,7 +10,7 @@
   $(document).ready(function () {
     $('.menu-item-contact').click(function() {
         document.querySelector('nav').classList.remove('menu-open');
-        document.querySelector('nav').style.display = "none";
+        //document.querySelector('nav').style.display = "none";
         $('html, body').animate({
         scrollTop: $(".contact-top").offset().top
         }, 'slow')
